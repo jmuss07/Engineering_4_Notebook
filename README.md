@@ -56,7 +56,8 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 Your readme will have various images and gifs on it. Upload a test image and test gif to make sure you've got the process figured out. Pick whatever image and gif you want!
 
 ### Test Link
-
+[Here's a test link!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/test.py)
 ### Test Image
-
+![Some battle droids for you!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/guess%20im%20the%20commander%20now.jpg?raw=true)
 ### Test GIF
+![Actually, on second thought, here's some more](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/droids.gif?raw=true)
