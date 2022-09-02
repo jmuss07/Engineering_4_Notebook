@@ -8,11 +8,11 @@
 
 &nbsp;
 
-## Raspberry_Pi_Assignment_Template
+## Launch Pad Part 1
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+The goal of this assignment was to create a countdown timer that goes down from 10 to 0. The value is meant to decrease by 1 every second. 
 
 ### Evidence 
 
@@ -20,14 +20,14 @@ Pictures / Gifs of your work should go here. You need to communicate what your t
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+No wiring for this assignment! 
 
 ### Code
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+[The countdown portion of the Launchpad assignment](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/launchpad_part_one.py) 
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+I felt pretty confident on this assignment, since I've used for-loops before. However, I had to look up how to change the increment by which it counts so that it goes backwards instead of fowards, since I needed a refresher. Other than that, I feel that the assignment went pretty well!
 
 &nbsp;
 
