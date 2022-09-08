@@ -4,6 +4,7 @@
 
 ## Table of Contents
 * [Launchpad Part 1](#Launchpad_Part_1)
+* [Launchpad Part 2](#Launchpad_Part_2)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -15,8 +16,7 @@
 The goal of this assignment was to create a countdown timer that goes down from 10 to 0. The value is meant to decrease by 1 every second. 
 
 ### Evidence 
-
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+![The code in action!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/launchpadpt1.gif?raw=true)
 
 ### Wiring
 
@@ -28,6 +28,7 @@ Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/r
 ### Reflection
 
 I felt pretty confident on this assignment, since I've used for-loops before. However, I had to look up how to change the increment by which it counts so that it goes backwards instead of fowards, since I needed a refresher. Other than that, I feel that the assignment went pretty well!
+
 
 &nbsp;
 
