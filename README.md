@@ -3,12 +3,12 @@
 &nbsp;
 
 ## Table of Contents
-* [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
+* [Launchpad Part 1](#Launchpad_Part_1)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
 
-## Launch Pad Part 1
+## Launchpad_Part_1
 
 ### Assignment Description
 
@@ -23,7 +23,7 @@ Pictures / Gifs of your work should go here. You need to communicate what your t
 No wiring for this assignment! 
 
 ### Code
-[The countdown portion of the Launchpad assignment](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/launchpad_part_one.py) 
+Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/launchpad_part_one.py) 
 
 ### Reflection
 
