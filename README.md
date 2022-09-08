@@ -16,6 +16,8 @@
 The goal of this assignment was to create a countdown timer that goes down from 10 to 0. The value is meant to decrease by 1 every second. 
 
 ### Evidence 
+The code in action!
+
 ![The code in action!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/launchpadpt1.gif?raw=true)
 
 ### Wiring
@@ -42,6 +44,51 @@ I felt pretty confident on this assignment, since I've used for-loops before. Ho
 
 
 &nbsp;
+
+## Launchpad_Part_2
+
+### Assignment Description
+
+The goal of this assignment was to combine the countdown timer created in the previous part with two LEDs: one that flashes red every second until liftoff, and the a green one that turns on and remains on once the countdown reaches liftoff.
+
+### Evidence
+The code in action!
+
+![The code in action!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/launchpad-pt-2.gif?raw=true)
+
+### Wiring
+The wiring diagram for this part!
+
+![The wiring diagram for this part!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/launchpad-pt2-wiring.png?raw=true)
+
+### Code
+Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/launchpad_part_two.py)
+```python
+import board
+import time
+import digitalio
+
+red = digitalio.DigitalInOut(board.GP14) #sets pin to connect red LED to board
+red.direction = digitalio.Direction.OUTPUT #sets pin type
+green = digitalio.DigitalInOut(board.GP15) #sets pin to connect green LED to board
+green.direction = digitalio.Direction.OUTPUT #sets pin type
+
+for i in range(10, 0, -1): #creates a range of numbers from 10 to 0, but does not include 0 in the list; also indicates that we're counting down by 1
+  red.value = True #turns red LED on
+  green.value = False #turns green LED off
+  print(i) #prints the current value of the counter
+  red.value = False #turns red LED off
+  time.sleep(1) #waites for 1 second before repeating
+print("Liftoff!") #prints the phrase "Liftoff!" one second after we exit the range of numbers in the for-loop
+while True:
+  green.value = True #turns green LED on
+  ```
+### Reflection
+
+This assignment also went pretty well, though I definitely had to give myself a refresher on the coding for the LEDs, especially when combining them with the for-loop. I also needed to take some time to get used to wiring things to the Pico, since the pin system/arrangement/setup is much different than that of a Metro or Uno.
+
+&nbsp;
+
 
 ## Onshape_Assignment_Template
 
