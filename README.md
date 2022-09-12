@@ -5,6 +5,12 @@
 ## Table of Contents
 * [Launchpad Part 1](#Launchpad_Part_1)
 * [Launchpad Part 2](#Launchpad_Part_2)
+* [Launchpad Part 3](#Launchpad_Part_3)
+* [Launchpad Part 4](#launchpadpart4)
+* [Crash Avoidance Part 1](#crashavoidancepart1)
+* [Crash Avoidance Part 2](#crashavoidancepart2)
+* [Crash Avoidance Part 3](#crashavoidancepart3)
+* [Crash Avoidance Part 4](#crashavoidancepart4)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -88,6 +94,173 @@ while True:
 This assignment also went pretty well, though I definitely had to give myself a refresher on the coding for the LEDs, especially when combining them with the for-loop. I also needed to take some time to get used to wiring things to the Pico, since the pin system/arrangement/setup is much different than that of a Metro or Uno.
 
 &nbsp;
+
+
+## Launchpad_Part_3
+
+### Assignment Description
+
+The goal of this assignment was to add a push button to the code in the previous part, so that it would only run once the button was pressed, and then stop, instead of looping indefinitely.
+
+### Evidence
+
+
+
+### Wiring
+
+
+
+### Code
+Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/launchpad_part_three.py)
+``` py
+import board
+import time
+import digitalio
+
+red = digitalio.DigitalInOut(board.GP14) #sets pin to connect red LED to board
+red.direction = digitalio.Direction.OUTPUT #sets pin type
+green = digitalio.DigitalInOut(board.GP15) #sets pin to connect green LED to board
+green.direction = digitalio.Direction.OUTPUT #sets pin type
+button = digitalio.DigitalInOut(board.GP16) #sets pin to connect button to board
+button.pull = digitalio.Pull.UP 
+
+while True:
+    if button.value == False:
+        for i in range(10, 0, -1): #creates a range of numbers from 10 to 0, but does not include 0 in the list; also indicates that we're counting down by 1
+            red.value = True #turns red LED on
+            green.value = False #turns green LED off
+            print(i) #prints the current value of the counter
+            red.value = False #turns red LED off
+            time.sleep(1) #waites for 1 second before repeating
+        print("Liftoff!") #prints the phrase "Liftoff!" one second after we exit the range of numbers in the for-loop
+        while True:
+            green.value = True #turns green LED on #         
+```
+
+### Reflection
+
+Because of the way the Pico sends signals to the button, as opposed to the Metro, I had to get used to the new system. On the bright side, I didn't have to use any resistors! I did have to make sure I used "Pull.UP" instead of "Pull.DOWN", since that would change the wiring needed for the pushbutton.
+
+&nbsp;
+
+
+## Launchpad_Part_4
+
+### Assignment Description
+
+
+
+### Evidence
+
+
+
+### Wiring
+
+
+
+### Code
+
+
+### Reflection
+
+
+
+&nbsp;
+
+
+## Crash_Avoidance_Part_1
+
+### Assignment Description
+
+
+
+### Evidence
+
+
+
+### Wiring
+
+
+
+### Code
+
+
+### Reflection
+
+
+
+&nbsp;
+
+
+## Crash_Avoidance_Part_2
+
+### Assignment Description
+
+
+
+### Evidence
+
+
+
+### Wiring
+
+
+
+### Code
+
+
+### Reflection
+
+
+
+&nbsp;
+
+
+## Crash_Avoidance_Part_3
+
+### Assignment Description
+
+
+
+### Evidence
+
+
+
+### Wiring
+
+
+
+### Code
+
+
+### Reflection
+
+
+
+&nbsp;
+
+
+## Crash_Avoidance_Part_4
+
+### Assignment Description
+
+
+
+### Evidence
+
+
+
+### Wiring
+
+
+
+### Code
+
+
+### Reflection
+
+
+
 
 
 ## Onshape_Assignment_Template
