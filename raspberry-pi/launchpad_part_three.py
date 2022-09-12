@@ -19,5 +19,5 @@ while True:
             time.sleep(1) #waites for 1 second before repeating
         print("Liftoff!") #prints the phrase "Liftoff!" one second after we exit the range of numbers in the for-loop
         while True:
-            green.value = True #turns green LED on
+            green.value = True #turns green LED on #
             
