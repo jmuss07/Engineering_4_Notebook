@@ -104,10 +104,16 @@ The goal of this assignment was to add a push button to the code in the previous
 
 ### Evidence
 
+The code in action!
+
+![The code in action!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/launchpadpt3.gif?raw=true)
 
 
 ### Wiring
 
+The wiring diagram for this part!
+
+![The wiring diagram for this part!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/launchpad%20pt3%20wiring.PNG?raw=true)
 
 
 ### Code
