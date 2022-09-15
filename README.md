@@ -6,11 +6,11 @@
 * [Launchpad Part 1](#Launchpad_Part_1)
 * [Launchpad Part 2](#Launchpad_Part_2)
 * [Launchpad Part 3](#Launchpad_Part_3)
-* [Launchpad Part 4](#launchpadpart4)
-* [Crash Avoidance Part 1](#crashavoidancepart1)
-* [Crash Avoidance Part 2](#crashavoidancepart2)
-* [Crash Avoidance Part 3](#crashavoidancepart3)
-* [Crash Avoidance Part 4](#crashavoidancepart4)
+* [Launchpad Part 4](#Launchpad_Part_4)
+* [Crash Avoidance Part 1](#Crash_Avoidance_Part_1)
+* [Crash Avoidance Part 2](#Crash_Avoidance_Part_2)
+* [Crash Avoidance Part 3](#Crash_Avoidance_Part_3)
+* [Crash Avoidance Part 4](#Crash_Avoidance_Part_4)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
