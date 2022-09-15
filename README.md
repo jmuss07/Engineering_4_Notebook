@@ -65,10 +65,10 @@ The code in action!
 ### Wiring
 The wiring diagram for this part!
 
-![The wiring diagram for this part!]https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/Launchpad/launchpad_part_two.py)
+![The wiring diagram for this part!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/launchpad-pt2-wiring.png?raw=true)
 
 ### Code
-Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/launchpad_part_two.py)
+Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/Launchpad/launchpad_part_two.py)
 ```python
 import board
 import time
