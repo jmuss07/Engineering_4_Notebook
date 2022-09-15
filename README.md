@@ -24,7 +24,7 @@ The goal of this assignment was to create a countdown timer that goes down from 
 ### Evidence 
 The code in action!
 
-![The code in action!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/launchpadpt1.gif?raw=true)
+![The code in action!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/Launchpad/launchpad_part_one.py)
 
 ### Wiring
 
@@ -65,7 +65,7 @@ The code in action!
 ### Wiring
 The wiring diagram for this part!
 
-![The wiring diagram for this part!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/launchpad-pt2-wiring.png?raw=true)
+![The wiring diagram for this part!]https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/Launchpad/launchpad_part_two.py)
 
 ### Code
 Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/launchpad_part_two.py)
@@ -117,7 +117,7 @@ The wiring diagram for this part!
 
 
 ### Code
-Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/launchpad_part_three.py)
+Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/Launchpad/launchpad_part_three.py)
 ``` py
 import board
 import time
@@ -171,7 +171,7 @@ The wiring diagram for this part!
 
 
 ### Code
-Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/launchpad_part_four.py)
+Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/Launchpad/launchpad_part_four.py)
 ``` py
 import board
 import time
