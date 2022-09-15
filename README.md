@@ -24,14 +24,14 @@ The goal of this assignment was to create a countdown timer that goes down from 
 ### Evidence 
 The code in action!
 
-![The code in action!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/Launchpad/launchpad_part_one.py)
+![The code in action!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/launchpadpt1.gif?raw=true)
 
 ### Wiring
 
 No wiring for this assignment! 
 
 ### Code
-Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/launchpad_part_one.py) 
+Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/Launchpad/launchpad_part_one.py) 
 ```python
 import board
 import time
