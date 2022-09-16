@@ -215,18 +215,37 @@ This assignment was easier for me than the pushbutton, since I worked with quite
 
 ### Assignment Description
 
-
+The goal of this assignment was to code an accelerometer to continuously print the values of acceleration in the x, y, and z directions to the serial monitor. 
 
 ### Evidence
 
+The code in action!
 
+!(The code in action!)[]
 
 ### Wiring
 
 
 
 ### Code
+Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/Crash%20Avoidance/crash_avoidance_part_one.py)
+``` py
+import board
+import adafruit_mpu6050
+import busio
+import time
 
+sda_pin = board.GP16 #sets pin for sda
+scl_pin = board.GP17 #sets pin for scl
+i2c = busio.I2C(scl_pin, sda_pin) #sets i2c
+mpu = adafruit_mpu6050.MPU6050(i2c) #initiates accelerometer
+
+print("code running!") #visual confirmation that code is running!
+
+while True:
+    print(mpu.acceleration) #print values of acceleration
+    time.sleep(1) #wait one second
+```
 
 ### Reflection
 
