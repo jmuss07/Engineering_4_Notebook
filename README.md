@@ -248,7 +248,7 @@ while True:
 ```
 
 ### Reflection
-
+I found this assignment tricky. I've never worked with an accelerometer before, so I had to learn how to work one. Once I got it figured out, it seemed to go pretty well though!
 
 
 &nbsp;
