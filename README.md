@@ -273,7 +273,7 @@ I found this assignment tricky. I've never worked with an accelerometer before, 
 
 ### Reflection
 
-
+This assignment was trickier, since it involved pulling information for just some situations. Due to this, I had to learn how to specify that the code was looking at just the x or just the y information.
 
 &nbsp;
 
