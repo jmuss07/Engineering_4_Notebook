@@ -297,7 +297,7 @@ This assignment was trickier, since it involved pulling information for just som
 
 ### Reflection
 
-
+While this assignment ended up ok, I had to learn the completely new skill of communicating with the OLED screen, as well as using two different I2C devices instead of just one. In the end, the code kept spitting random error messages at me, and I had to change the pins things were plugged in to several times before it started working.
 
 &nbsp;
 
