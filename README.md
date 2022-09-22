@@ -221,31 +221,16 @@ The goal of this assignment was to code an accelerometer to continuously print t
 
 The code in action!
 
-!(The code in action!)[]
+!(The code in action!)[https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/crashavoidancept1.gif?raw=true]
 
 ### Wiring
 
+The wiring diagram for this part!
 
+![The wiring diagram for this part!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/Launchpad%20pt4%20wiring.png?raw=true)
 
 ### Code
-Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/Crash%20Avoidance/crash_avoidance_part_one.py)
-``` py
-import board
-import adafruit_mpu6050
-import busio
-import time
-
-sda_pin = board.GP16 #sets pin for sda
-scl_pin = board.GP17 #sets pin for scl
-i2c = busio.I2C(scl_pin, sda_pin) #sets i2c
-mpu = adafruit_mpu6050.MPU6050(i2c) #initiates accelerometer
-
-print("code running!") #visual confirmation that code is running!
-
-while True:
-    print(mpu.acceleration) #print values of acceleration
-    time.sleep(1) #wait one second
-```
+Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/crashavoidancept1wiring.PNG?raw=true)
 
 ### Reflection
 I found this assignment tricky. I've never worked with an accelerometer before, so I had to learn how to work one. Once I got it figured out, it seemed to go pretty well though!
@@ -258,18 +243,23 @@ I found this assignment tricky. I've never worked with an accelerometer before, 
 
 ### Assignment Description
 
-
+The goal of this assignment was to add a warning light to the previous part that turns on any time the accelerometer is tilted 90 degrees or more in any direction.
 
 ### Evidence
 
+The code in action!
 
+!(The code in action!)[https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/crashavoidancept2.gif?raw=true]
 
 ### Wiring
 
+The wiring diagram for this part!
 
+![The wiring diagram for this part!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/CAP2wiring.PNG?raw=true)
 
 ### Code
 
+Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/a2ceca7ee34c4c578c48e1bfdca3d07284f9e345/raspberry-pi/Crash%20Avoidance/crash_avoidance_part_two.py)
 
 ### Reflection
 
@@ -282,18 +272,23 @@ This assignment was trickier, since it involved pulling information for just som
 
 ### Assignment Description
 
-
+The goal of this assignment was to take the previous two parts and print the data from the accelerometer to an OLED screen, rounding the decimal three places.
 
 ### Evidence
 
+The code in action!
 
+!(The code in action!)[https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/Crashavoidancept3.gif?raw=true]
 
 ### Wiring
 
+The wiring diagram for this part!
 
+![The wiring diagram for this part!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/CAP3wiring.PNG?raw=true)
 
 ### Code
 
+Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/a2ceca7ee34c4c578c48e1bfdca3d07284f9e345/raspberry-pi/Crash%20Avoidance/crash_avoidance_part_three.py)
 
 ### Reflection
 
