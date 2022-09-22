@@ -221,7 +221,7 @@ The goal of this assignment was to code an accelerometer to continuously print t
 
 The code in action!
 
-!(The code in action!)[https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/crashavoidancept1.gif?raw=true]
+![The code in action!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/crashavoidancept1.gif?raw=true)
 
 ### Wiring
 
@@ -249,7 +249,7 @@ The goal of this assignment was to add a warning light to the previous part that
 
 The code in action!
 
-!(The code in action!)[https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/crashavoidancept2.gif?raw=true]
+![The code in action!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/crashavoidancept2.gif?raw=true)
 
 ### Wiring
 
@@ -278,7 +278,7 @@ The goal of this assignment was to take the previous two parts and print the dat
 
 The code in action!
 
-!(The code in action!)[https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/Crashavoidancept3.gif?raw=true]
+![The code in action!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/Crashavoidancept3.gif?raw=true)
 
 ### Wiring
 
