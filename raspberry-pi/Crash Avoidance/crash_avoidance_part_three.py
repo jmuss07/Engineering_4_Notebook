@@ -29,15 +29,15 @@ while True:
     text_area = label.Label(terminalio.FONT, text = title, color = 0xFFFF00, x = 5, y= 5) #sets font, text, color, and location
     splash.append(text_area) #adds to splash
 
-    x_val = f"x: {mpu.acceleration[0]}" #adds x value text block to display group
+    x_val = f"x: {round(mpu.acceleration[0], 3)}" #adds x value text block to display group and rounds it to 3 decimal places
     text_area = label.Label(terminalio.FONT, text = x_val, color = 0xFFFF00, x = 5, y = 16) #sets font, text, color, and location
     splash.append(text_area) #adds to splash
 
-    y_val = f"y: {mpu.acceleration[1]}" #adds y value text block to display group
+    y_val = f"y: {round(mpu.acceleration[1], 3)}" #adds y value text block to display group and rounds it to 3 decimal places
     text_area = label.Label(terminalio.FONT, text = y_val, color = 0xFFFF00, x = 5, y= 26) #sets font, text, color, and poition
     splash.append(text_area) #adds to splash
 
-    z_val = f"z: {mpu.acceleration[2]}" #adds z value text block to display group
+    z_val = f"z: {round(mpu.acceleration[2], 3)}" #adds z value text block to display group and rounds it to 3 decimal places
     text_area = label.Label(terminalio.FONT, text = z_val, color = 0xFFFF00, x = 5, y= 36) #sets font, text, color, and position
     splash.append(text_area) #adds to splash
     
