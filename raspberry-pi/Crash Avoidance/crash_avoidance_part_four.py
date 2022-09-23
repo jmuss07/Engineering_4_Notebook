@@ -21,7 +21,7 @@ display_bus = displayio.I2CDisplay(i2c, device_address = 0x3d, reset = board.GP2
 display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=128, height=64) #sets up OLED screen
 mpu = adafruit_mpu6050.MPU6050(i2c, address = 0x68)#initiates accelerometer
 
-altitude_initial = sensor.altitude
+altitude_initial = sensor.altitude #sets initial altitude to be starting altitude instead of sea-level
 
 print("code running!") #visual confirmation that code is running!
 
@@ -48,9 +48,15 @@ while True:
     print(mpu.acceleration) #print values of acceleration
     time.sleep(1) #wait one second
     
-    if mpu.acceleration[0] < -9 or mpu.acceleration[0] > 9 and sensor.altidue - altitude_initial < 3: #only do this if the x-value is >9 or <-9
-         warning.value = True #turn warning LED on
-    elif mpu.acceleration[1] < -9 or mpu.acceleration[1] > 9 and sensor.altidue - altitude_initial < 3: #only do this if the y-value is >9 or <-9
-         warning.value = True #turn warning LED on
+    if mpu.acceleration[0] < -9 or mpu.acceleration[0] > 9:#only do this if the x-value is >9 or <-9 
+        if sensor.altitude - altitude_initial > 3: #only do this if the current altitude is less than 3 meters above it's start altitude
+            warning.value = False #turn warning LED off
+        else:
+            warning.value = True #turn warning LED on
+    elif mpu.acceleration[1] < -9 or mpu.acceleration[1] > 9:#only do this if the y-value is >9 or <-9
+        if sensor.altitude - altitude_initial < 3:  #only do this if the current altitude is less than 3 meters above it's start altitude
+            warning.value = False #turn warning LED off
+        else:
+            warning.value = True #turn warning LED on
     else:
         warning.value = False #turn warning LED off
