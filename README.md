@@ -301,22 +301,28 @@ While this assignment ended up ok, I had to learn the completely new skill of co
 
 ### Assignment Description
 
-
+The goal of this assignment was toadd an altimeter to the previous parts, so that the warning light won't turn on if the device is more than 3 meters above its initial altitude.
 
 ### Evidence
 
+The code in action!
 
+![The code in action!]()
 
 ### Wiring
 
+The wiring diagram for this part!
 
+![The wiring diagram for this part!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/CAP4_wiring.PNG?raw=true)
 
 ### Code
 
+Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/Crash%20Avoidance/crash_avoidance_part_four.py)
 
 ### Reflection
 
 
+This one was more challenging, since the altimeter's initial altitude is sea level. In order to combat this, I had to make it so that it used whatever altitude it read when it turned on as the initial altitude.
 
 
 
