@@ -307,7 +307,7 @@ The goal of this assignment was toadd an altimeter to the previous parts, so tha
 
 The code in action!
 
-![The code in action!]()
+![The code in action!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/CAP4.gif?raw=true)
 
 ### Wiring
 
