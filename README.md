@@ -46,7 +46,7 @@ for i in range(10, -1, -1): #creates a range of numbers from 10 to -1, but does 
 
 ### Reflection
 
-I felt pretty confident on this assignment, since I've used for-loops before. However, I had to look up how to change the increment by which it counts so that it goes backwards instead of fowards, since I needed a refresher. Other than that, I feel that the assignment went pretty well!
+I felt pretty confident on this assignment, since I've used ```for``` loops before. However, I had to look up how to change the increment by which it counts so that it goes backwards instead of fowards, since I needed a refresher. Other than that, I feel that the assignment went pretty well!
 
 
 &nbsp;
@@ -91,7 +91,7 @@ while True:
   ```
 ### Reflection
 
-This assignment also went pretty well, though I definitely had to give myself a refresher on the coding for the LEDs, especially when combining them with the for-loop. I also needed to take some time to get used to wiring things to the Pico, since the pin system/arrangement/setup is much different than that of a Metro or Uno.
+This assignment also went pretty well, though I definitely had to give myself a refresher on the coding for the LEDs, especially when combining them with the ```for``` loop. I also needed to take some time to get used to wiring things to the Pico, since the pin system/arrangement/setup is much different than that of a Metro or Uno.
 
 &nbsp;
 
@@ -145,7 +145,7 @@ while True:
 
 ### Reflection
 
-Because of the way the Pico sends signals to the button, as opposed to the Metro, I had to get used to the new system. On the bright side, I didn't have to use any resistors! I did have to make sure I used "Pull.UP" instead of "Pull.DOWN", since that would change the wiring needed for the pushbutton.
+Because of the way the Pico sends signals to the button, as opposed to the Metro, I had to get used to the new system. On the bright side, I didn't have to use any resistors! I did have to make sure I used ```Pull.UP``` instead of ```Pull.DOWN```, since that would change the wiring needed for the pushbutton.
 
 &nbsp;
 
