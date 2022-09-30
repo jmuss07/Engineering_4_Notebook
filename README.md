@@ -11,6 +11,9 @@
 * [Crash Avoidance Part 2](#Crash_Avoidance_Part_2)
 * [Crash Avoidance Part 3](#Crash_Avoidance_Part_3)
 * [Crash Avoidance Part 4](#Crash_Avoidance_Part_4)
+* [Landing Area Part 1](#Landing_Area_Part_1)
+* [Landing Area Part 2](#Landing_Area_Part_2)
+* [Landing Area Part 3](#Landing_Area_Part_3)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -323,6 +326,92 @@ Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/r
 
 
 This one was more challenging, since the altimeter's initial altitude is sea level. In order to combat this, I had to make it so that it used whatever altitude it read when it turned on as the initial altitude.
+
+
+&nbsp;
+
+
+## Landing_Area_Part_1
+
+### Assignment Description
+
+The goal of this assignment was to create a program that asks for three sets of coordinates that form a triangle, which the user then inputs, and finds the area of said triangle.
+
+### Evidence
+
+The code in action!
+
+![The code in action!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/LAP1.gif?raw=true)
+
+### Wiring
+
+No wiring for this assignment!
+
+### Code
+
+Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/Landing%20Area/landing_area_part_one.py)
+
+### Reflection
+
+This assignment required me to refresh my knowledge pon functions and user input. However, since I had used both in my [project last year](https://github.com/jmuss07/Automated-Sign-Language), it wasn't too difficult. This was my first time using the ```split``` function, which proved to be super helpful in separating the x and y coordinates in each pair!
+
+&nbsp;
+
+
+## Landing_Area_Part_2
+
+### Assignment Description
+
+
+
+### Evidence
+
+The code in action!
+
+![The code in action!]()
+
+### Wiring
+
+The wiring diagram for this part!
+
+![The wiring diagram for this part!]()
+
+### Code
+
+Here's [the code!]()
+
+### Reflection
+
+
+
+&nbsp;
+
+
+## Landing_Area_Part_3
+
+### Assignment Description
+
+
+
+### Evidence
+
+The code in action!
+
+![The code in action!]()
+
+### Wiring
+
+The wiring diagram for this part!
+
+![The wiring diagram for this part!]()
+
+### Code
+
+Here's [the code!]()
+
+### Reflection
+
+
 
 
 
