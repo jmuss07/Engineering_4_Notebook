@@ -29,14 +29,23 @@ def triangle_area(list_1, list_2, list_3): #creates function
         area = abs(Ax*(By-Cy) + Bx*(Cy - Ay) + Cx*(Ay - By))/2 #do the math for the area of a triangle
         
         splash = displayio.Group() #creates display group
-
-        hline = Line(0,32,128,32, color=0xFFFF00)
-        splash.append(hline)
-        
-        hline = Line(64,64,64,0, color=0xFFFF00)
-        splash.append(hline)
         
         print(f"\nThe area of the triangle with vertices ({Ax},{Ay}), ({Bx},{By}), ({Cx},{Cy}) is {area} square km!")
+        
+        hline = Line(0,32,128,32, color=0xFFFF00) #sets color, start coordinates, and end coordinates of the line serving as the x-axis
+        splash.append(hline) #adds to splash
+        
+        vline = Line(64,64,64,0, color=0xFFFF00) #sets color, start coordinates, and end coordinates of the line serving as the y-axis
+        splash.append(vline) #adds to splash
+        
+        triangle = Triangle(int(Ax+64), int(Ay+32), int(Bx+64), int(By+32), int(Cx+64), int(Cy+32), outline=0xFFFF00) #sets color and coordinates for vertices of a triangle
+        splash.append(triangle)#adds to splash
+        
+        title = f"Area: {area}" #adds text with area of triangle to display group
+        text_area = label.Label(terminalio.FONT, text = title, color = 0xFFFF00, x = 5, y= 5) #sets font, text, color, and location
+        splash.append(text_area) #adds to splashs
+        display.show(splash) #sends display group to OLED screen
+        
         return area
     except: #if there are any errors do this
         print("\nSorry, these points do not form a valid triangle. Please try again, and make sure you are using the x,y sintax!")
@@ -44,6 +53,7 @@ def triangle_area(list_1, list_2, list_3): #creates function
 
 cont = False #creates a variable and sets it to False
 while not cont:
+    #display.reset(splash)
     start = input("\nType 'start' to begin, or type -q to quit: ").lower() #prints a question to the REPL, then sets the variable "start" to the lowercase version of the user input
     if start == "-q": #if "-q" is input
         cont = True #breaks the loop
