@@ -38,7 +38,7 @@ def triangle_area(list_1, list_2, list_3): #creates function
         vline = Line(64,64,64,0, color=0xFFFF00) #sets color, start coordinates, and end coordinates of the line serving as the y-axis
         splash.append(vline) #adds to splash
         
-        triangle = Triangle(int(Ax+64), int(Ay+32), int(Bx+64), int(By+32), int(Cx+64), int(Cy+32), outline=0xFFFF00) #sets color and coordinates for vertices of a triangle
+        triangle = Triangle(int(Ax+64), int(-Ay+32), int(Bx+64), int(-By+32), int(Cx+64), int(-Cy+32), outline=0xFFFF00) #sets color and coordinates for vertices of a triangle
         splash.append(triangle)#adds to splash
         
         title = f"Area: {area}" #adds text with area of triangle to display group
