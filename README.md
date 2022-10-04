@@ -362,27 +362,27 @@ This assignment required me to refresh my knowledge pon functions and user input
 
 ### Assignment Description
 
-
+The goal of this assignment was to add an OLED screen to the previous part that would graph the triangle made from the coordinates provided by the user, and display its area.
 
 ### Evidence
 
 The code in action!
 
-![The code in action!]()
+![The code in action!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/LAP2.gif?raw=true)
 
 ### Wiring
 
 The wiring diagram for this part!
 
-![The wiring diagram for this part!]()
+![The wiring diagram for this part!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/LAP2wiring.PNG?raw=true)
 
 ### Code
 
-Here's [the code!]()
+Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/Landing%20Area/landing_area_part_two.py)
 
 ### Reflection
 
-
+Getting the coordinates to display on the OLED screen was tricky. This was due to the difference in the screen size and the numbers for the coordinates. Because of this, my first test triangle was appearing off-screen, and the second was in the wrong place! After trying multiple things, I found out that you have to add 64 to the x-coordinates, and 32 to the y-coordinates (after making the y-coordinates negative).
 
 &nbsp;
 
