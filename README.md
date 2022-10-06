@@ -391,27 +391,27 @@ Getting the coordinates to display on the OLED screen was tricky. This was due t
 
 ### Assignment Description
 
-
+The goal of this assignment was to replace the user input from the last part with a pre-set list of possible coordinate sets, which the code would then run through, displaying each triangle and area to the OLED screen, before finally determining the closest triangle with an area over 100 km.
 
 ### Evidence
 
 The code in action!
 
-![The code in action!]()
+![The code in action!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/LAP3.gif?raw=true)
 
 ### Wiring
 
-The wiring diagram for this part!
+The wiring diagram for this part! (It's the same wiring as the last part!)
 
-![The wiring diagram for this part!]()
+![The wiring diagram for this part!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/LAP2wiring.PNG?raw=true)
 
 ### Code
 
-Here's [the code!]()
+Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/Landing%20Area/landing_area_part_three.py)
 
 ### Reflection
 
-
+This assignment was rather tricky. The first trouble I had came from trying to loop through the list of different triangles. After that, I had to figure out how to exit said loop. The answer? DO NOT USE A ```while True``` STATEMENT!!! After that, I had to figure out a way to find a triangle that fit both requirements. I settled on an ```if``` statement that only replaces the maximum area and minimum distance if the new distance is smaller than the old one, and the new area is bigger than the old.
 
 
 
