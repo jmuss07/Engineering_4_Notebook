@@ -21,6 +21,7 @@ display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=128, height=64) 
 max_area = 100  
 mid_x = 64 #x-coordinate of center of OLED screen display
 mid_y = 32 #y-coordinate of center of OLED screen display
+min_distance = 10000000000
 
 def triangle_area(Ax, Ay, Bx, By, Cx, Cy): #creates function
         area = abs(Ax*(By-Cy) + Bx*(Cy - Ay) + Cx*(Ay - By))/2 #do the math for the area of a triangle
@@ -54,18 +55,25 @@ def triangle_area(Ax, Ay, Bx, By, Cx, Cy): #creates function
 
         display.show(splash) #sends display group to OLED screen
         
-        return area
+        return [area, distance]
            
-while True:
-    points = [[-50,-17,-57,12,-22,-7],[28,-14,60,-7,54,18],[45,30,51,-1,18,6],[5,5,19,15,22,10]] #List of all points used, each set of inner brackets contains the coordinates for one full triangle
-    for i in range(len(points)): #loops it so that it does this process for every set of coordinates ("len(points)" refers to how many lists are in "points")
-       Ax = points[i][0] #sets Ax to the first number in the list
-       Ay = points[i][1] #sets Ay to the second number in the list
-       Bx = points[i][2] #sets Bx to the third number in the list
-       By = points[i][3] #sets Vy to the fourth number in the list
-       Cx = points[i][4] #sets Cx to the fifth number in the list
-       Cy = points[i][5] #sets Cy to the sixth number in the list
-       triangle_area(Ax, Ay, Bx, By, Cx, Cy) #calls/uses the function created at the start of the code
-       if triangle_area > max_area: 
-           max_area = triangle_area #replace the current max_area with the area of the new triangle
-       time.sleep(1)
+points = [[-50,-17,-57,12,-22,-7],[28,-14,60,-7,54,18],[45,30,51,-1,18,6],[5,5,19,15,22,10]] #List of all points used, each set of inner brackets contains the coordinates for one full triangle
+for i in range(len(points)): #loops it so that it does this process for every set of coordinates ("len(points)" refers to how many lists are in "points")
+    Ax = points[i][0] #sets Ax to the first number in the list
+    Ay = points[i][1] #sets Ay to the second number in the list
+    Bx = points[i][2] #sets Bx to the third number in the list
+    By = points[i][3] #sets Vy to the fourth number in the list
+    Cx = points[i][4] #sets Cx to the fifth number in the list
+    Cy = points[i][5] #sets Cy to the sixth number in the list
+    data = triangle_area(Ax, Ay, Bx, By, Cx, Cy) #calls/uses the function created at the start of the code
+    if data[0] > max_area and data[1] < min_distance: 
+        max_area = data[0] #replace the current max_area with the area of the new triangle
+        min_distance = data[1] #replaces the current min_distance with the distance of the new triangle
+        Ax_max = Ax
+        Ay_max = Ay
+        Bx_max = Bx
+        By_max = By
+        Cx_max = Cy
+        Cy_max = Cy
+    time.sleep(1)
+print(f"The closest suitable landing area has vertices ({Ax_max}, {Ay_max}), ({Bx_max}, {By_max}), ({Cx_max}, {Cy_max}). The area is {max_area} km2 and the centroid is {min_distance} km away from base.")
