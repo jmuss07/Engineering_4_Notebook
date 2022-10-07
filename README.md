@@ -14,6 +14,9 @@
 * [Landing Area Part 1](#Landing_Area_Part_1)
 * [Landing Area Part 2](#Landing_Area_Part_2)
 * [Landing Area Part 3](#Landing_Area_Part_3)
+* [Morse Code Part 1](#Morse_Code_Part_1)
+* [Morse Code Part 2](#Morse_Code_Part_2)
+* [Morse Code Part 3](#Morse_Code_Part_3)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -353,7 +356,7 @@ Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/r
 
 ### Reflection
 
-This assignment required me to refresh my knowledge pon functions and user input. However, since I had used both in my [project last year](https://github.com/jmuss07/Automated-Sign-Language), it wasn't too difficult. This was my first time using the ```split``` function, which proved to be super helpful in separating the x and y coordinates in each pair!
+This assignment required me to refresh my knowledge on functions and user input. However, since I had used both in my [project last year](https://github.com/jmuss07/Automated-Sign-Language), it wasn't too difficult. This was my first time using the ```split``` function, which proved to be super helpful in separating the x and y coordinates in each pair!
 
 &nbsp;
 
@@ -412,6 +415,92 @@ Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/r
 ### Reflection
 
 This assignment was rather tricky. The first trouble I had came from trying to loop through the list of different triangles. After that, I had to figure out how to exit said loop. The answer? DO NOT USE A ```while True``` STATEMENT!!! After that, I had to figure out a way to find a triangle that fit both requirements. I settled on an ```if``` statement that only replaces the maximum area and minimum distance if the new distance is smaller than the old one, and the new area is bigger than the old.
+
+
+&nbsp;
+
+
+## Morse_Code_Part_1
+
+### Assignment Description
+
+The goal of this assignment was to create a parser that would take a phrase input by the user and translate it to morse code, printing the translation to the serial monitor. In addition, it had to quit the program if the user types ```-q``` instead of a phrase.
+
+### Evidence
+
+The code in action!
+
+![The code in action!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/MCP1.gif?raw=true)
+
+### Wiring
+
+No wiring for this assignment!
+
+### Code
+
+Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/Morse%20Code/morse_code_part_one.py)
+
+### Reflection
+
+Just like the last one, this assignment required user input. This time, it utilized a parser! Since I worked with parsing in my [project last year](https://github.com/jmuss07/Automated-Sign-Language), it wasn't too difficult. However, this time I had to learn how to concatenate strings. This process adds strings together, allowing me to print the entire translated message on one line, instead of each letter on a new line.
+
+&nbsp;
+
+## Morse_Code_Part_2
+
+### Assignment Description
+
+
+
+### Evidence
+
+The code in action!
+
+![The code in action!]()
+
+### Wiring
+
+The wiring diagram for this part!
+
+![The wiring diagram for this part!]()
+
+
+### Code
+
+Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/Morse%20Code/morse_code_part_two.py)
+
+### Reflection
+
+
+
+&nbsp;
+
+## Morse_Code_Part_3
+
+### Assignment Description
+
+
+### Evidence
+
+The code in action!
+
+![The code in action!]()
+
+### Wiring
+
+The wiring diagram for this part!
+
+![The wiring diagram for this part!]()
+
+
+### Code
+
+Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/Morse%20Code/morse_code_part_three.py)
+
+### Reflection
+
+
+&nbsp;
 
 
 
