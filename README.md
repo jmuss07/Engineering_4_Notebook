@@ -16,7 +16,6 @@
 * [Landing Area Part 3](#Landing_Area_Part_3)
 * [Morse Code Part 1](#Morse_Code_Part_1)
 * [Morse Code Part 2](#Morse_Code_Part_2)
-* [Morse Code Part 3](#Morse_Code_Part_3)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -475,32 +474,6 @@ Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/r
 
 &nbsp;
 
-## Morse_Code_Part_3
-
-### Assignment Description
-
-
-### Evidence
-
-The code in action!
-
-![The code in action!]()
-
-### Wiring
-
-The wiring diagram for this part!
-
-![The wiring diagram for this part!]()
-
-
-### Code
-
-Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/raspberry-pi/Morse%20Code/morse_code_part_three.py)
-
-### Reflection
-
-
-&nbsp;
 
 
 
