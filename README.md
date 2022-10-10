@@ -449,7 +449,7 @@ Just like the last one, this assignment required user input. This time, it utili
 
 ### Assignment Description
 
-
+The goal of this assignment was to add an LED to the previous part that would stay on or off for various times depending on the letter or type of pause/break it was meant to communicate.
 
 ### Evidence
 
