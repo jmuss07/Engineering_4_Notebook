@@ -459,9 +459,7 @@ The code in action!
 
 ### Wiring
 
-The wiring diagram for this part!
-
-![The wiring diagram for this part!]()
+No wiring for this assignment!
 
 
 ### Code
