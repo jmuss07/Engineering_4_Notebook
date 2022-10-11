@@ -455,7 +455,7 @@ The goal of this assignment was to add an LED to the previous part that would st
 
 The code in action!
 
-![The code in action!]()
+![The code in action!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/MCP2.gif?raw=true)
 
 ### Wiring
 
@@ -468,7 +468,11 @@ Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/r
 
 ### Reflection
 
-
+This assignment wasn't too bad, since it mostly just built on the previous part. However, I had some trouble getting the ```if``` statements for the blink lengths working. The trick to that is to end the original ```for```-loop that translated and printed the morse code to the serial monitor, then add a second ```for```-loop immediately after containg the ```if``` statements controlling the LED blinks. By keeping this within the statement saying that
+ ```python 
+if confirm.lower() == "y":
+```
+ the code waits for the translated blinking to finish before looping back to the original ask.
 
 &nbsp;
 
