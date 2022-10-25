@@ -51,7 +51,7 @@ for i in range(10, -1, -1): #creates a range of numbers from 10 to -1, but does 
 
 ### Reflection
 
-I felt pretty confident on this assignment, since I've used ```for``` loops before. However, I had to look up how to change the increment by which it counts so that it goes backwards instead of fowards, since I needed a refresher. Other than that, I feel that the assignment went pretty well!
+I felt pretty confident on this assignment, since I've used ```for``` loops before. However, I had to look up how to change the increment by which it counts so that it goes backwards instead of fowards, since I needed a refresher. To do this, you need to specify a range, with the first number being the start value, the second being the end, and the third being the increment by which it increases. By setting the third value to -1, I got it to count down by 1. It's also important to note that although the start value is included in the range, the end value is not, so you have to set it to 1 lower than what you actually want it to go to. Other than that, I feel that the assignment went pretty well!
 
 
 &nbsp;
@@ -96,7 +96,7 @@ while True:
   ```
 ### Reflection
 
-This assignment also went pretty well, though I definitely had to give myself a refresher on the coding for the LEDs, especially when combining them with the ```for``` loop. I also needed to take some time to get used to wiring things to the Pico, since the pin system/arrangement/setup is much different than that of a Metro or Uno.
+This assignment also went pretty well, though I definitely had to give myself a refresher on the coding for the LEDs, especially when combining them with the ```for``` loop. It's important to make sure that the ```for``` loop isn't inside a ```while True``` statement, and that you turn the green LED on outside of the ```for``` loop; this piece *does* go inside a ```while True``` statement. I also needed to take some time to get used to wiring things to the Pico, since the pin system/arrangement/setup is much different than that of a Metro or Uno.
 
 &nbsp;
 
@@ -238,8 +238,7 @@ The wiring diagram for this part!
 Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/crashavoidancept1wiring.PNG?raw=true)
 
 ### Reflection
-I found this assignment tricky. I've never worked with an accelerometer before, so I had to learn how to work one. Once I got it figured out, it seemed to go pretty well though!
-
+I found this assignment tricky. I've never worked with an accelerometer before, so I had to learn how to work one. Once I got it figured out, it seemed to go pretty well though! Although the set-up commands were provided in the assignment, I wanted to fully understand how they worked, so I took extra time to figure it out. Other than that, the code is fairly straightfoward; after the setup, it only consists of a ```while True``` statement containing the commands ```print(mpu.acceleration)``` and a ```time.sleep``` function.
 
 &nbsp;
 
@@ -268,7 +267,7 @@ Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/a2ceca
 
 ### Reflection
 
-This assignment was trickier, since it involved pulling information for just some situations. Due to this, I had to learn how to specify that the code was looking at just the x or just the y information.
+This assignment was trickier, since it involved pulling information for just some situations. Due to this, I had to learn how to specify that the code was looking at just the x or just the y information.In order to do this you have to specify ```mpu.acceleration[0]``` for the x-coordinate, and ```mpu.acceleration[1]``` for the y-coordinate. The rest of the code utilized ```if``` statements that controlled the LED based on the value found by the accelerometer, so it was just one command of ```warning.value = True``` or ```warning.value = False```.
 
 &nbsp;
 
@@ -297,7 +296,7 @@ Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/a2ceca
 
 ### Reflection
 
-While this assignment ended up ok, I had to learn the completely new skill of communicating with the OLED screen, as well as using two different I2C devices instead of just one. In the end, the code kept spitting random error messages at me, and I had to change the pins things were plugged in to several times before it started working.
+While this assignment ended up ok, I had to learn the completely new skill of communicating with the OLED screen, as well as using two different I2C devices instead of just one. In order to do this, you have to run a seperate code file, making sure to upload it onto the board itself. After changing the ```sda``` and ```scl``` pin values to all of the ones you're using, the code will print out the I2C device names! I got this bit running just fine, but in the end, the code kept spitting random error messages at me, and I had to change the pins things were plugged in to several times before it started working.
 
 &nbsp;
 
@@ -306,7 +305,7 @@ While this assignment ended up ok, I had to learn the completely new skill of co
 
 ### Assignment Description
 
-The goal of this assignment was toadd an altimeter to the previous parts, so that the warning light won't turn on if the device is more than 3 meters above its initial altitude.
+The goal of this assignment was to add an altimeter to the previous parts, so that the warning light won't turn on if the device is more than 3 meters above its initial altitude.
 
 ### Evidence
 
@@ -327,8 +326,7 @@ Here's [the code!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/r
 ### Reflection
 
 
-This one was more challenging, since the altimeter's initial altitude is sea level. In order to combat this, I had to make it so that it used whatever altitude it read when it turned on as the initial altitude.
-
+This one was more challenging, since the altimeter's initial altitude is sea level. In order to combat this, I had to make it so that it used whatever altitude it read when it turned on as the initial altitude. I did this through the command ```altitude_initial = sensor.altitude```. After resetting this value, the device can measure the current height from the initial altitude!
 
 &nbsp;
 
