@@ -491,7 +491,9 @@ Here's [the part!](https://cvilleschools.onshape.com/documents/59c81db643eb421ff
 
 ### Part Image
 
-Take a nice screenshot of your Onshape document. 
+The part itself!
+
+![The part itself!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/images/FEA_Beam_1.PNG?raw=true)
 
 ### Reflection
 
