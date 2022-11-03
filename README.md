@@ -479,7 +479,7 @@ if confirm.lower() == "y":
 
 
 
-<!-- ## FEA_Part_1_Beam_Design -->
+## FEA_Part_1_Beam_Design
 
 ### Assignment Description
 
@@ -487,7 +487,7 @@ The goal of this assignment was to design a beam in Onshape that would maximize 
 
 ### Part Link 
 
-
+Here's [the part!](https://cvilleschools.onshape.com/documents/59c81db643eb421ff4169cab/w/b284f2fe0a8eaa6940be94eb/e/aecb3df057d554533ad4fef1?renderMode=0&uiState=6363ff269f09cf7adfb890d7)
 
 ### Part Image
 
