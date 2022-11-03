@@ -3,6 +3,7 @@
 &nbsp;
 
 ## Table of Contents
+### Code
 * [Launchpad Part 1](#Launchpad_Part_1)
 * [Launchpad Part 2](#Launchpad_Part_2)
 * [Launchpad Part 3](#Launchpad_Part_3)
@@ -16,7 +17,8 @@
 * [Landing Area Part 3](#Landing_Area_Part_3)
 * [Morse Code Part 1](#Morse_Code_Part_1)
 * [Morse Code Part 2](#Morse_Code_Part_2)
-* [Onshape_Assignment_Template](#onshape_assignment_template)
+### Onshape
+* [FEA Part 1 (Beam Design)](#FEA_Part_1_(Beam_Design))
 
 &nbsp;
 
@@ -477,15 +479,15 @@ if confirm.lower() == "y":
 
 
 
-## Onshape_Assignment_Template
+## FEA_Part_1_(Beam_Design)
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+The goal of this assignment was to design a beam in Onshape that would maximize the weight it could support before failing. In order to make the assignment more challenging, we had a variety of restrictions, and beam failure was classified as the beam either breaking or bending more than 35mm.
 
 ### Part Link 
 
-[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
+
 
 ### Part Image
 
@@ -493,7 +495,7 @@ Take a nice screenshot of your Onshape document.
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+Before starting my design, I looked into architecture designs for strong yet light-weight designs. One of the most intriguing designs utilized a lattice for the main structure of the beam. By attaching a thinner chunk to the end of the main beam, I was able to make a shelf for the eyebolt hole. I also went through and filleted any sharp corners where different parts of the attachment block met in order to reduce any potential breaking points, since sharp corners are stress concentrators and curves are not. When designing the beam as a whole, I was reminded of a honeycomb, which may be a concept used in future iterations, especially since hexagons are particularly strong shapes. 
 
 &nbsp;
 
