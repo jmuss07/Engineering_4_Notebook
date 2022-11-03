@@ -18,7 +18,7 @@
 * [Morse Code Part 1](#Morse_Code_Part_1)
 * [Morse Code Part 2](#Morse_Code_Part_2)
 ### Onshape
-* [FEA Part 1 (Beam Design)](#FEA_Part_1_(Beam_Design))
+* [FEA Part 1 (Beam Design)](#FEA_Part_1_Beam_Design)
 
 &nbsp;
 
@@ -479,7 +479,7 @@ if confirm.lower() == "y":
 
 
 
-## FEA_Part_1_(Beam_Design)
+<!-- ## FEA_Part_1_Beam_Design -->
 
 ### Assignment Description
 
