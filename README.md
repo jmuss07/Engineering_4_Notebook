@@ -545,7 +545,7 @@ Here's [the part!](https://cvilleschools.onshape.com/documents/59c81db643eb421ff
 ![The Sim]()
 
 ### Reflection
-
+In version 3 of the beam design, I added a block to the edge closest to the attachment block, and filleted the edges to create a smoother transition. This was done because in the previous 
 &nbsp;
 
 
