@@ -19,6 +19,9 @@
 * [Morse Code Part 2](#Morse_Code_Part_2)
 ### Onshape
 * [FEA Part 1 (Beam Design)](#FEA_Part_1_Beam_Design)
+* [FEA Part 2 (Beam Design)](#FEA_Part_2_Beam_Design)
+* [FEA Part 3 (Beam Design)](#FEA_Part_3_Beam_Design)
+
 
 &nbsp;
 
@@ -500,6 +503,51 @@ The part itself!
 Before starting my design, I looked into architecture designs for strong yet light-weight designs. One of the most intriguing designs utilized a lattice for the main structure of the beam. By attaching a thinner chunk to the end of the main beam, I was able to make a shelf for the eyebolt hole. I also went through and filleted any sharp corners where different parts of the attachment block met in order to reduce any potential breaking points, since sharp corners are stress concentrators and curves are not. When designing the beam as a whole, I was reminded of a honeycomb, which may be a concept used in future iterations, especially since hexagons are particularly strong shapes. 
 
 &nbsp;
+
+
+
+## FEA_Part_2_Beam_Design
+
+### Assignment Description
+
+In this assignment, we had to put our previously designed beam into Simscale, a site that can run FEA (Finite Element Analysis). We used it to run a structural analysis on our beam in order to find the weak points and further optimize it.
+
+### Part Link 
+
+Here's [the part!](https://cvilleschools.onshape.com/documents/59c81db643eb421ff4169cab/w/b284f2fe0a8eaa6940be94eb/e/aecb3df057d554533ad4fef1?renderMode=0&uiState=6363ff269f09cf7adfb890d7)
+
+### Part Image
+
+The Simscale model!
+
+![The Simscale model!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/onshape/FEA_Simscale_Iteration1.PNG?raw=true)
+
+### Reflection
+
+The end of the beam closest to where the beam connects to the block seems to be the most likely to fail, and will probably either break or bend at this point. This may be fixable by either reinforcing this point, and reducing the mass by making the beam skinnier. It also may be possible to change the orientation of the lattices, so that they're vertical instead of horizontal.
+&nbsp;
+
+
+
+## FEA_Part_2_Beam_Design
+
+### Assignment Description
+
+
+
+### Part Link 
+
+Here's [the part!](https://cvilleschools.onshape.com/documents/59c81db643eb421ff4169cab/w/b284f2fe0a8eaa6940be94eb/e/aecb3df057d554533ad4fef1?renderMode=0&uiState=6363ff269f09cf7adfb890d7)
+
+### Part Image
+
+
+![The Sim]()
+
+### Reflection
+
+&nbsp;
+
 
 ## Media Test
 
