@@ -19,8 +19,8 @@
 * [Morse Code Part 2](#Morse_Code_Part_2)
 ### Onshape
 * [FEA Part 1 (Beam Design)](#FEA_Part_1_Beam_Design)
-* [FEA Part 2 (Beam Design)](#FEA_Part_2_Beam_Design)
-* [FEA Part 3 (Beam Design)](#FEA_Part_3_Beam_Design)
+* [FEA Part 2 (Simscale Workflow)](#FEA_Part_2_Simscale_Workflow)
+* [FEA Part 3 (Iterative Design)](#FEA_Part_3_Iterative_Design)
 
 
 &nbsp;
@@ -506,7 +506,7 @@ Before starting my design, I looked into architecture designs for strong yet lig
 
 
 
-## FEA_Part_2_Beam_Design
+## FEA_Part_2_Simscale_Workflow
 
 ### Assignment Description
 
@@ -529,7 +529,7 @@ The end of the beam closest to where the beam connects to the block seems to be 
 
 
 
-## FEA_Part_2_Beam_Design
+## FEA_Part_3_Iterative_Design
 
 ### Assignment Description
 
