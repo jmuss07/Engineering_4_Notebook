@@ -4,7 +4,7 @@
 
 ## Table of Contents
 ### Code
-* [Launchpad Part 1](#Launchpad_Part_1)
+* [Launchpad Part 1](#Launchpad-Part-1)
 * [Launchpad Part 2](#Launchpad_Part_2)
 * [Launchpad Part 3](#Launchpad_Part_3)
 * [Launchpad Part 4](#Launchpad_Part_4)
@@ -25,7 +25,7 @@
 
 &nbsp;
 
-## Launchpad_Part_1
+## Launchpad Part 1
 
 ### Assignment Description
 
