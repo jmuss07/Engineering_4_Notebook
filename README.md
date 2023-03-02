@@ -533,7 +533,7 @@ The end of the beam closest to where the beam connects to the block seems to be 
 
 ### Assignment Description
 
-
+In this assignment, we had to use the results from the simulation performed in the previous part to improve our design.
 
 ### Part Link 
 
@@ -541,11 +541,10 @@ Here's [the part!](https://cvilleschools.onshape.com/documents/59c81db643eb421ff
 
 ### Part Image
 
-
-![The Sim]()
+Unfortunately, Simscale was unable to properly form a mesh of the final beam, meaning that I was unable to create a simulation. 
 
 ### Reflection
-In version 3 of the beam design, I added a block to the edge closest to the attachment block, and filleted the edges to create a smoother transition. This was done because in the previous 
+In version 3 of the beam design, I added a block to the edge closest to the attachment block, and filleted the edges to create a smoother transition. This was done because in the previous version, that edge was the weakest part that was most likely to break. I also added 4 thinner extrusions that were 5mm in width spaced 25mm apart to make sure that those areas were sturdier and less likely to break.
 &nbsp;
 
 
