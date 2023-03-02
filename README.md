@@ -5,22 +5,22 @@
 ## Table of Contents
 ### Code
 * [Launchpad Part 1](#Launchpad-Part-1)
-* [Launchpad Part 2](#Launchpad_Part_2)
-* [Launchpad Part 3](#Launchpad_Part_3)
-* [Launchpad Part 4](#Launchpad_Part_4)
-* [Crash Avoidance Part 1](#Crash_Avoidance_Part_1)
-* [Crash Avoidance Part 2](#Crash_Avoidance_Part_2)
-* [Crash Avoidance Part 3](#Crash_Avoidance_Part_3)
-* [Crash Avoidance Part 4](#Crash_Avoidance_Part_4)
-* [Landing Area Part 1](#Landing_Area_Part_1)
-* [Landing Area Part 2](#Landing_Area_Part_2)
-* [Landing Area Part 3](#Landing_Area_Part_3)
-* [Morse Code Part 1](#Morse_Code_Part_1)
-* [Morse Code Part 2](#Morse_Code_Part_2)
+* [Launchpad Part 2](#Launchpad-Part-2)
+* [Launchpad Part 3](#Launchpad-Part-3)
+* [Launchpad Part 4](#Launchpad-Part-4)
+* [Crash Avoidance Part 1](#Crash-Avoidance-Part-1)
+* [Crash Avoidance Part 2](#Crash-Avoidance-Part-2)
+* [Crash Avoidance Part 3](#Crash-Avoidance-Part-3)
+* [Crash Avoidance Part 4](#Crash-Avoidance-Part-4)
+* [Landing Area Part 1](#Landing-Area-Part-1)
+* [Landing Area Part 2](#Landing-Area-Part-2)
+* [Landing Area Part 3](#Landing-Area-Part-3)
+* [Morse Code Part 1](#Morse-Code-Part-1)
+* [Morse Code Part 2](#Morse-Code-Part-2)
 ### Onshape
-* [FEA Part 1 (Beam Design)](#FEA_Part_1_Beam_Design)
-* [FEA Part 2 (Simscale Workflow)](#FEA_Part_2_Simscale_Workflow)
-* [FEA Part 3 (Iterative Design)](#FEA_Part_3_Iterative_Design)
+* [FEA Part 1 (Beam Design)](#FEA-Part-1-Beam-Design)
+* [FEA Part 2 (Simscale Workflow)](#FEA-Part-2-Simscale-Workflow)
+* [FEA Part 3 (Iterative Design)](#FEA-Part-3-Iterative-Design)
 
 
 &nbsp;
@@ -61,7 +61,7 @@ I felt pretty confident on this assignment, since I've used ```for``` loops befo
 
 &nbsp;
 
-## Launchpad_Part_2
+## Launchpad Part 2
 
 ### Assignment Description
 
@@ -106,7 +106,7 @@ This assignment also went pretty well, though I definitely had to give myself a 
 &nbsp;
 
 
-## Launchpad_Part_3
+## Launchpad Part 3
 
 ### Assignment Description
 
@@ -160,7 +160,7 @@ Because of the way the Pico sends signals to the button, as opposed to the Metro
 &nbsp;
 
 
-## Launchpad_Part_4
+## Launchpad Part 4
 
 ### Assignment Description
 
@@ -221,7 +221,7 @@ This assignment was easier for me than the pushbutton, since I worked with quite
 &nbsp;
 
 
-## Crash_Avoidance_Part_1
+## Crash Avoidance Part 1
 
 ### Assignment Description
 
@@ -248,7 +248,7 @@ I found this assignment tricky. I've never worked with an accelerometer before, 
 &nbsp;
 
 
-## Crash_Avoidance_Part_2
+## Crash Avoidance Part 2
 
 ### Assignment Description
 
@@ -277,7 +277,7 @@ This assignment was trickier, since it involved pulling information for just som
 &nbsp;
 
 
-## Crash_Avoidance_Part_3
+## Crash Avoidance Part 3
 
 ### Assignment Description
 
@@ -306,7 +306,7 @@ While this assignment ended up ok, I had to learn the completely new skill of co
 &nbsp;
 
 
-## Crash_Avoidance_Part_4
+## Crash Avoidance Part 4
 
 ### Assignment Description
 
@@ -336,7 +336,7 @@ This one was more challenging, since the altimeter's initial altitude is sea lev
 &nbsp;
 
 
-## Landing_Area_Part_1
+## Landing Area Part 1
 
 ### Assignment Description
 
@@ -363,7 +363,7 @@ This assignment required me to refresh my knowledge on functions and user input.
 &nbsp;
 
 
-## Landing_Area_Part_2
+## Landing Area Part 2
 
 ### Assignment Description
 
@@ -392,7 +392,7 @@ Getting the coordinates to display on the OLED screen was tricky. This was due t
 &nbsp;
 
 
-## Landing_Area_Part_3
+## Landing Area Part 3
 
 ### Assignment Description
 
@@ -422,7 +422,7 @@ This assignment was rather tricky. The first trouble I had came from trying to l
 &nbsp;
 
 
-## Morse_Code_Part_1
+## Morse Code Part 1
 
 ### Assignment Description
 
@@ -448,7 +448,7 @@ Just like the last one, this assignment required user input. This time, it utili
 
 &nbsp;
 
-## Morse_Code_Part_2
+## Morse Code Part 2
 
 ### Assignment Description
 
@@ -482,7 +482,7 @@ if confirm.lower() == "y":
 
 
 
-## FEA_Part_1_Beam_Design
+## FEA Part 1 Beam Design
 
 ### Assignment Description
 
@@ -506,7 +506,7 @@ Before starting my design, I looked into architecture designs for strong yet lig
 
 
 
-## FEA_Part_2_Simscale_Workflow
+## FEA Part 2 Simscale Workflow
 
 ### Assignment Description
 
@@ -529,7 +529,7 @@ The end of the beam closest to where the beam connects to the block seems to be 
 
 
 
-## FEA_Part_3_Iterative_Design
+## FEA Part 3 Iterative Design
 
 ### Assignment Description
 
