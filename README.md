@@ -566,7 +566,7 @@ Here's [the part!](https://cvilleschools.onshape.com/documents/126c5299402389b7e
 
 The part!
 
-![The part!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/onshape/FEA_Simscale_Iteration1.PNG?raw=true)
+![The part!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/onshape/spinner.PNG?raw=true)
 
 ### Reflection
 
@@ -591,7 +591,7 @@ Here's [the part!](https://cvilleschools.onshape.com/documents/126c5299402389b7e
 
 The part!
 
-![The part!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/onshape/FEA_Simscale_Iteration1.PNG?raw=true)
+![The part!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/onshape/prop.PNG?raw=true)
 
 ### Reflection
 
