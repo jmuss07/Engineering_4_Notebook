@@ -1,3 +1,4 @@
+#type:ignore
 import board
 import adafruit_mpu6050
 import busio

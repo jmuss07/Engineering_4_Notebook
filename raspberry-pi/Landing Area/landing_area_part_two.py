@@ -1,3 +1,4 @@
+#type:ignore
 import board
 import time
 from adafruit_display_shapes.triangle import Triangle
