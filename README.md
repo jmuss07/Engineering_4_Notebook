@@ -21,6 +21,9 @@
 * [FEA Part 1 (Beam Design)](#FEA-Part-1-Beam-Design)
 * [FEA Part 2 (Simscale Workflow)](#FEA-Part-2-Simscale-Workflow)
 * [FEA Part 3 (Iterative Design)](#FEA-Part-3-Iterative-Design)
+* [Ring and Spinner](#Ring-and-Spinner)
+* [Key and Prop](#Key-and-Prop)
+* [Assembling the Launcher](#Assembling-the-Launcher)
 
 
 &nbsp;
@@ -547,6 +550,76 @@ Unfortunately, Simscale was unable to properly form a mesh of the final beam, me
 In version 3 of the beam design, I added a block to the edge closest to the attachment block, and filleted the edges to create a smoother transition. This was done because in the previous version, that edge was the weakest part that was most likely to break. I also added 4 thinner extrusions that were 5mm in width spaced 25mm apart to make sure that those areas were sturdier and less likely to break.
 &nbsp;
 
+
+
+## Ring and Spinner
+
+### Assignment Description
+
+This was the first part of a three-part teamwork assignment in which we made a pullcopter! In this part, one of us designed the ring, which is where the copter is held, and the other made the spinner, which is the rod that the prop sits on. I made the spinner, and my partner [Johnny](https://github.com/jkrosby51) made the ring. I'll be covering the spinner here. To find out about the ring, you can check out [Johnny's repository](https://github.com/jkrosby51/Engineering_4_Notebook/blob/main/README.md).
+
+### Part Link 
+
+Here's [the part!](https://cvilleschools.onshape.com/documents/126c5299402389b7ee0cfbea/w/3b41693a293f15039c4e0d37/e/e149bbc1e7d2cea44b67b81e)
+
+### Part Image
+
+The part!
+
+![The part!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/onshape/FEA_Simscale_Iteration1.PNG?raw=true)
+
+### Reflection
+
+This was a good refresher on some tools that I hadn't used in a while, especially editing in context. While I've used this feature before, it hasn't played a role in any of my recent projects. It was incredibly helpful, and allowed me to create the spinner in it's own part studio based off of previous geometries from a different part studio. This was also my first time using the helix tool, which was used to create the threads on the top half of the spinner. This tool allowed me to make a path that followed the curve of the circular face. I was then able to use a sweep to remove the area created by the helix and a previously made sketch on the top face of the spinner.
+
+&nbsp;
+
+
+
+## Key and Prop
+
+### Assignment Description
+
+This is the second part in the three part teamwork assignment. If you want to see part one, you can find it [here](#Ring-and-Spinner). In this part, one of us made the key, which is pulled in order to release the copter, and the other designed the prop, which is the piece that flys/is released from the others. I made the prop, and my partner [Johnny](https://github.com/jkrosby51) made the key. I'll be covering the prop here. To find out about the key, you can check out [Johnny's repository](https://github.com/jkrosby51/Engineering_4_Notebook/blob/main/README.md).
+
+
+### Part Link 
+
+Here's [the part!](https://cvilleschools.onshape.com/documents/126c5299402389b7ee0cfbea/w/3b41693a293f15039c4e0d37/e/e149bbc1e7d2cea44b67b81e)
+
+### Part Image
+
+The part!
+
+![The part!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/onshape/FEA_Simscale_Iteration1.PNG?raw=true)
+
+### Reflection
+
+Similarly to the previous piece, this part also utilised tools that I was already familiar with. However, I did find the method used to create the blades rather interesting. The blades were created on the front plane, as opposed to a sketch face. The sketch used featured a single parallelogram, which was drawn at the appropriate angle that we wanted the blades to be at. It was then extruded up to the inner face of the outer ring of the prop, and I used a circular pattern to create more blades. While not the way I would have initially chosen to create the blades, it was extremely effective.
+
+&nbsp;
+
+
+
+## Assembling the Launcher
+
+### Assignment Description
+
+
+
+### Part Link 
+
+Here's [the part!](https://cvilleschools.onshape.com/documents/126c5299402389b7ee0cfbea/w/3b41693a293f15039c4e0d37/e/830f431f4d70c9975bba268f)
+
+### Part Image
+
+The part!
+
+![The part!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/onshape/FEA_Simscale_Iteration1.PNG?raw=true)
+
+### Reflection
+
+&nbsp;
 
 ## Media Test
 
