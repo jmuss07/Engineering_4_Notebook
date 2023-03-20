@@ -605,7 +605,7 @@ Similarly to the previous piece, this part also utilised tools that I was alread
 
 ### Assignment Description
 
-
+This was the third and final part of the pullcopter assignment (part one can be found [here](#Ring-and-Spinner), and part two is [here](#Key-and-Prop)) In this part, we regrouped and worked on the final assembly of the pullcopter. We both added parts and mates to create the finished product.
 
 ### Part Link 
 
@@ -618,6 +618,8 @@ The part!
 ![The part!](https://github.com/jmuss07/Engineering_4_Notebook/blob/main/onshape/pullcopter.PNG?raw=true)
 
 ### Reflection
+
+Since I've done a fair amount of Onshape work in the past, this part was pretty easy. We did mess around with the feature that allowed us to follow what the other was doing, which was pretty fun. It also took a good amount of communication between the two of us as to who did what part of the assembly. 
 
 &nbsp;
 
